@@ -1,2 +1,128 @@
-# ML-attacks-detection-models-WSN-BFSF-
-Python code that have, data cleaning and preprocessing and building a ML model that detects the attacks in Wireless Sensor Networks
+# WSN_Attack_Detection
+Machine Learning model for detecting attacks in Wireless Sensor Networks
+Wireless Sensor Network Attack Detection
+
+Project Overview
+
+This project applies machine learning techniques to detect attacks in Wireless Sensor Networks (WSNs). It involves data cleaning, preprocessing, and model training to classify network behavior as normal or malicious.
+
+Dataset
+
+The dataset contains various network-related features used to detect anomalies and intrusions in WSNs.
+
+Data Preprocessing:
+
+Dropped irrelevant columns (e.g., highly correlated or single-value columns).
+
+Handled missing values using mean imputation and forward fill.
+
+Encoded categorical variables using label encoding.
+
+Normalized numerical features for better model performance.
+
+Machine Learning Models
+
+Three models were trained and compared:
+
+Random Forest Classifier
+
+K-Nearest Neighbors (KNN)
+
+Decision Tree Classifier
+
+Model Evaluation Metrics:
+
+Model
+
+Accuracy
+
+Precision
+
+Recall
+
+F1-Score
+
+Random Forest
+
+99.25%
+
+99.07%
+
+96.75%
+
+97.72%
+
+KNN
+
+95.72%
+
+91.23%
+
+84.23%
+
+87.59%
+
+Decision Tree
+
+99.98%
+
+99.97%
+
+99.93%
+
+99.95%
+
+Visualizations
+
+Box Plot: Visualizes the distribution of data.
+
+Bar Chart: Compares model performance.
+
+Radar Chart: Highlights differences in evaluation metrics.
+
+Project Structure
+
+WSN_Attack_Detection/
+│── data/                  # Raw and processed data
+│── notebooks/             # Jupyter notebooks for analysis
+│── models/                # Saved trained models
+│── src/                   # Python scripts for preprocessing & ML
+│── results/               # Evaluation metrics & visualizations
+│── README.md              # Project documentation
+│── requirements.txt       # Dependencies
+│── .gitignore             # Ignore unnecessary files
+
+How to Run
+
+Clone the repository:
+
+git clone https://github.com/your-username/WSN_Attack_Detection.git
+cd WSN_Attack_Detection
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+Run the Jupyter notebook for training:
+
+jupyter notebook notebooks/WSN_Detection.ipynb
+
+Dependencies
+
+Python 3.x
+
+NumPy
+
+Pandas
+
+Scikit-learn
+
+Matplotlib
+
+Future Improvements
+
+Implement deep learning models for improved accuracy.
+
+Enhance feature selection techniques.
+
+Optimize model hyperparameters.
