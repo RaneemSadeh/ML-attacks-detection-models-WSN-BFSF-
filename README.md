@@ -32,18 +32,6 @@ Three models were trained and compared:
 - **Bar Chart**: Compares model performance.
 - **Radar Chart**: Highlights differences in evaluation metrics.
 
-## Project Structure
-```
-WSN_Attack_Detection/
-│── data/                  # Raw and processed data
-│── notebooks/             # Jupyter notebooks for analysis
-│── models/                # Saved trained models
-│── src/                   # Python scripts for preprocessing & ML
-│── results/               # Evaluation metrics & visualizations
-│── README.md              # Project documentation
-│── requirements.txt       # Dependencies
-│── .gitignore             # Ignore unnecessary files
-```
 
 ## How to Run
 1. Clone the repository:
@@ -57,7 +45,7 @@ WSN_Attack_Detection/
    ```
 3. Run the Jupyter notebook for training:
    ```bash
-   jupyter notebook notebooks/WSN_Detection.ipynb
+   jupyter notebook notebooks/DS_Final_(RANEEM).ipynb
    ```
 
 ## Dependencies
