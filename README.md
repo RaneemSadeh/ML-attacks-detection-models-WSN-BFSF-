@@ -71,6 +71,3 @@ WSN_Attack_Detection/
 - Implement deep learning models for improved accuracy.
 - Enhance feature selection techniques.
 - Optimize model hyperparameters.
-
-## License
-This project is licensed under the MIT License.
