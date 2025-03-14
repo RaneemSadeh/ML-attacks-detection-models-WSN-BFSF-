@@ -36,7 +36,7 @@ Three models were trained and compared:
 ## How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/WSN_Attack_Detection.git
+   git clone https://github.com/RaneemSadeh/WSN_Attack_Detection.git
    cd WSN_Attack_Detection
    ```
 2. Install dependencies:
