@@ -43,7 +43,7 @@ Three models were trained and compared:
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the Jupyter notebook for training:
+3. Run the Jupyter notebook (or Colab by Google) for training:
    ```bash
    jupyter notebook notebooks/DS_Final_(RANEEM).ipynb
    ```
