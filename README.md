@@ -53,7 +53,7 @@ Three models were trained and compared:
 - NumPy
 - Pandas
 - Scikit-learn
-- Matplotlib
+- MatPlotlib
 
 ## Future Improvements
 - Implement deep learning models for improved accuracy.
